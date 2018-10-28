@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { toast } from "react-toastify";
 
-import { logoutCustomer, setLoggedCustomer } from '../../actions/login';
+import { logoutCustomer, setLoggedCustomer, customerLoginPending } from '../../actions/login';
 
 function mapStateToProps({loggedCustomerState: {customer = null}}) {
     return {
@@ -38,11 +38,15 @@ class Login extends Component {
         if (name === 'admin' && password === '123') {
             const {dispatch} = this.props;
 
-            dispatch(setLoggedCustomer({
-                name: 'Admin',
-                login: 'admin',
-                role: 'admin'
-            }));
+            dispatch(customerLoginPending());
+
+            setTimeout(() => {
+                dispatch(setLoggedCustomer({
+                    name: 'Admin',
+                    login: 'admin',
+                    role: 'admin'
+                }));
+            }, 3000);
         } else {
             toast.error('Credentials uncorrect');
         }

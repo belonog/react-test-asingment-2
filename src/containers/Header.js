@@ -1,11 +1,12 @@
 import React from 'react';
 import Login from './components/Login';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <header>
             <nav className="navbar navbar-light bg-light">
-                <a className="navbar-brand" href="#">Navbar</a>
+                <Link className="navbar-brand" to="/">BrandName</Link>
 
                 <Login />
             </nav>

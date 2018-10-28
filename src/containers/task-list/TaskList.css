@@ -1,0 +1,49 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.task-list__list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.task-list__item {
+  display: flex;
+  padding: .5em 0;
+  cursor: pointer;
+}
+
+.task-list__title {
+  font-weight: bold;
+  display: flex;
+  padding: .5em 0;
+}
+
+.task-list__item:nth-child(odd) {
+  background: #ebebeb;
+}
+
+.task-list__id,
+.task-list__status,
+.task-list__name,
+.task-list__email {
+  padding: 0 .5em;
+}
+
+.task-list__name,
+.task-list__email {
+  flex: 0 0 20%;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.task-list__text {
+  flex: 1;
+  word-wrap: break-word;
+  overflow: hidden;
+}

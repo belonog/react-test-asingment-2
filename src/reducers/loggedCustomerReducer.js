@@ -1,7 +1,7 @@
 import { SET_LOGGED_CUSTOMER, CUSTOMER_LOGIN_PENDING, CLEAR_LOGGED_CUSTOMER } from '../actions/login';
 
 const initialState = {
-    pending: true,
+    pending: false,
     logged: false
 };
 
