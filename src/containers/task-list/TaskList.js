@@ -29,7 +29,7 @@ class TaskList extends Component {
 
     viewTask = (id) => {
         const {history} = this.props;
-        history.push('/task/' + id);
+        history.push('/task/view/' + id);
     }
 
     sortTasks = (id) => {
@@ -39,7 +39,7 @@ class TaskList extends Component {
     }
 
     render() {
-        const { tasks, pagination, isFetching } = this.props;
+        const { tasks, pagination, isFetching, history } = this.props;
 
         return (
             <div className="task-list">
@@ -58,7 +58,7 @@ class TaskList extends Component {
                                 <div className="task-list__text">Text</div>
                                 <div className="task-list__id"><a href="#" onClick={() => this.sortTasks('id')}>ID</a></div>
                             </li>
-                            {tasks.map((itm, idx) => <li key={itm.id} className="task-list__item" onClick={() => this.viewTask(idx)}>
+                            {tasks.map((itm, idx) => <li key={itm.id} className="task-list__item" onClick={() => this.viewTask(itm.id)}>
                                 <div className="task-list__status">
                                     <input type="checkbox" checked={itm.status} disabled/>
                                 </div>

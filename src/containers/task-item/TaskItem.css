@@ -11,3 +11,8 @@
 .task-item__title {
   font-weight: bold;
 }
+
+.task-item__img {
+  max-width: 320px;
+  max-height: 240px;
+}

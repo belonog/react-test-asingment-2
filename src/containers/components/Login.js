@@ -25,9 +25,10 @@ class Login extends Component {
         });
     }
 
-    doLogout = () => {
+    doLogout = (e) => {
         const {dispatch} = this.props;
         dispatch(logoutCustomer());
+        e.preventDefault();
     }
 
     doLogin = (e) => {

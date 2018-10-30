@@ -11,7 +11,23 @@ const tasks = {
                 ...sort,
             }
         });
-    }
+    },
+
+    async create(data) {
+        return await get({
+            path: '/create',
+            method: 'POST',
+            postData: data,
+        });
+    },
+
+    async update(data, id) {
+        return await get({
+            path: '/edit/' + id,
+            method: 'POST',
+            postData: data,
+        });
+    },
 };
 
 export async function checkResponse(response) {
@@ -39,10 +55,15 @@ export async function checkResponse(response) {
 export async function get({ path, method = 'GET', postData, getParams }) {
     method = method.toUpperCase();
     const request = Object.assign({ method },
-        method === 'POST' ? { body: JSON.stringify(postData) } : {}
+        method === 'POST' ? { body: postData } : {}
     );
 
-    const requestPath = API_SERVER + path + (method === 'GET' && getParams ? '?' + encodeURI(Object.entries(getParams).map(itm => `${itm[0]}=${itm[1]}`).join('&')) : '');
+    const requestPath = API_SERVER + path + `?developer=${API_SECRET}`
+        + (getParams ? '&' + encodeURI(
+            Object.entries(getParams)
+                .map(itm => `${itm[0]}=${itm[1]}`)
+                .join('&'))
+        : '');
 
     let response = fetch(requestPath, request);
 

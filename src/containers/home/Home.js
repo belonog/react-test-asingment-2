@@ -26,7 +26,8 @@ class Home extends Component {
                 <div className="container main-content">
                     <Switch>
                         <Route path="/" exact component={TaskList} />
-                        <Route path="/task/:id" component={TaskItem} />
+                        <Route path="/task/:mode(edit||view)/:id(\d+)" component={TaskItem} />
+                        <Route path="/task/:mode(create)" component={TaskItem} />
                         <Redirect to="/" />
                     </Switch>
                 </div>

@@ -2,9 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            Copyrights 2018
-        </div>
+        <footer>
+            <div className="container">
+                Copyrights 2018
+            </div>
+        </footer>
     );
 };
 
