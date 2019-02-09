@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.d1aa1c8d.chunk.css",
-  "main.js": "/static/js/main.1f56257a.chunk.js",
-  "main.js.map": "/static/js/main.1f56257a.chunk.js.map",
-  "static/css/1.21654f7f.chunk.css": "/static/css/1.21654f7f.chunk.css",
-  "static/js/1.67299e0e.chunk.js": "/static/js/1.67299e0e.chunk.js",
-  "static/js/1.67299e0e.chunk.js.map": "/static/js/1.67299e0e.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/1.21654f7f.chunk.css.map": "/static/css/1.21654f7f.chunk.css.map",
-  "static/css/main.d1aa1c8d.chunk.css.map": "/static/css/main.d1aa1c8d.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.a0983cf2543f9350ce6537178cd7ca94.js": "/precache-manifest.a0983cf2543f9350ce6537178cd7ca94.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/react-test-asingment-2/static/css/main.d1aa1c8d.chunk.css",
+  "main.js": "/react-test-asingment-2/static/js/main.4d53b3ff.chunk.js",
+  "main.js.map": "/react-test-asingment-2/static/js/main.4d53b3ff.chunk.js.map",
+  "static/css/1.21654f7f.chunk.css": "/react-test-asingment-2/static/css/1.21654f7f.chunk.css",
+  "static/js/1.67299e0e.chunk.js": "/react-test-asingment-2/static/js/1.67299e0e.chunk.js",
+  "static/js/1.67299e0e.chunk.js.map": "/react-test-asingment-2/static/js/1.67299e0e.chunk.js.map",
+  "runtime~main.js": "/react-test-asingment-2/static/js/runtime~main.f6501d51.js",
+  "runtime~main.js.map": "/react-test-asingment-2/static/js/runtime~main.f6501d51.js.map",
+  "static/css/main.d1aa1c8d.chunk.css.map": "/react-test-asingment-2/static/css/main.d1aa1c8d.chunk.css.map",
+  "static/css/1.21654f7f.chunk.css.map": "/react-test-asingment-2/static/css/1.21654f7f.chunk.css.map",
+  "index.html": "/react-test-asingment-2/index.html",
+  "precache-manifest.81274f0b747426ec081e196b0270b26e.js": "/react-test-asingment-2/precache-manifest.81274f0b747426ec081e196b0270b26e.js",
+  "service-worker.js": "/react-test-asingment-2/service-worker.js"
 }
