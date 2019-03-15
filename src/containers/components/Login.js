@@ -71,14 +71,14 @@ class Login extends Component {
                             className="form-control mr-sm-2"
                             type="text"
                             name="name"
-                            placeholder="Login"
+                            placeholder="Login - admin"
                             onChange={this.updateState} />
                         <input
                             id="password"
                             className="form-control mr-sm-2"
                             type="password"
                             name="password"
-                            placeholder="Password"
+                            placeholder="Password -123"
                             onChange={this.updateState} />
                         <button className="btn btn-outline-success my-2 my-sm-0" type="submit" disabled={!(name && password)}>Login</button>
                 </form>}
