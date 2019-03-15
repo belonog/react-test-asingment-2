@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-test-asingment-2/static/css/main.d1aa1c8d.chunk.css",
-  "main.js": "/react-test-asingment-2/static/js/main.81195d58.chunk.js",
-  "main.js.map": "/react-test-asingment-2/static/js/main.81195d58.chunk.js.map",
-  "static/css/1.21654f7f.chunk.css": "/react-test-asingment-2/static/css/1.21654f7f.chunk.css",
-  "static/js/1.67299e0e.chunk.js": "/react-test-asingment-2/static/js/1.67299e0e.chunk.js",
-  "static/js/1.67299e0e.chunk.js.map": "/react-test-asingment-2/static/js/1.67299e0e.chunk.js.map",
-  "runtime~main.js": "/react-test-asingment-2/static/js/runtime~main.f6501d51.js",
-  "runtime~main.js.map": "/react-test-asingment-2/static/js/runtime~main.f6501d51.js.map",
-  "static/css/1.21654f7f.chunk.css.map": "/react-test-asingment-2/static/css/1.21654f7f.chunk.css.map",
-  "static/css/main.d1aa1c8d.chunk.css.map": "/react-test-asingment-2/static/css/main.d1aa1c8d.chunk.css.map",
-  "index.html": "/react-test-asingment-2/index.html",
-  "precache-manifest.b07e43e15105b175a522fb65e821cf6e.js": "/react-test-asingment-2/precache-manifest.b07e43e15105b175a522fb65e821cf6e.js",
-  "service-worker.js": "/react-test-asingment-2/service-worker.js"
+  "main.css": "/static/css/main.c7185b3d.chunk.css",
+  "main.js": "/static/js/main.52dcd96f.chunk.js",
+  "main.js.map": "/static/js/main.52dcd96f.chunk.js.map",
+  "static/css/1.66e334b1.chunk.css": "/static/css/1.66e334b1.chunk.css",
+  "static/js/1.4bd46f2f.chunk.js": "/static/js/1.4bd46f2f.chunk.js",
+  "static/js/1.4bd46f2f.chunk.js.map": "/static/js/1.4bd46f2f.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/1.66e334b1.chunk.css.map": "/static/css/1.66e334b1.chunk.css.map",
+  "static/css/main.c7185b3d.chunk.css.map": "/static/css/main.c7185b3d.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.a460b55eca903460037465aa1d690523.js": "/precache-manifest.a460b55eca903460037465aa1d690523.js",
+  "service-worker.js": "/service-worker.js"
 }
