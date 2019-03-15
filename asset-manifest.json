@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.c7185b3d.chunk.css",
-  "main.js": "/static/js/main.52dcd96f.chunk.js",
-  "main.js.map": "/static/js/main.52dcd96f.chunk.js.map",
-  "static/css/1.66e334b1.chunk.css": "/static/css/1.66e334b1.chunk.css",
-  "static/js/1.4bd46f2f.chunk.js": "/static/js/1.4bd46f2f.chunk.js",
-  "static/js/1.4bd46f2f.chunk.js.map": "/static/js/1.4bd46f2f.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/1.66e334b1.chunk.css.map": "/static/css/1.66e334b1.chunk.css.map",
-  "static/css/main.c7185b3d.chunk.css.map": "/static/css/main.c7185b3d.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.a460b55eca903460037465aa1d690523.js": "/precache-manifest.a460b55eca903460037465aa1d690523.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/react-test-assignment-2/static/css/main.c7185b3d.chunk.css",
+  "main.js": "/react-test-assignment-2/static/js/main.a200e44c.chunk.js",
+  "main.js.map": "/react-test-assignment-2/static/js/main.a200e44c.chunk.js.map",
+  "static/css/1.66e334b1.chunk.css": "/react-test-assignment-2/static/css/1.66e334b1.chunk.css",
+  "static/js/1.4bd46f2f.chunk.js": "/react-test-assignment-2/static/js/1.4bd46f2f.chunk.js",
+  "static/js/1.4bd46f2f.chunk.js.map": "/react-test-assignment-2/static/js/1.4bd46f2f.chunk.js.map",
+  "runtime~main.js": "/react-test-assignment-2/static/js/runtime~main.4c266c2b.js",
+  "runtime~main.js.map": "/react-test-assignment-2/static/js/runtime~main.4c266c2b.js.map",
+  "static/css/1.66e334b1.chunk.css.map": "/react-test-assignment-2/static/css/1.66e334b1.chunk.css.map",
+  "static/css/main.c7185b3d.chunk.css.map": "/react-test-assignment-2/static/css/main.c7185b3d.chunk.css.map",
+  "index.html": "/react-test-assignment-2/index.html",
+  "precache-manifest.116f06e9bd7e8c410ab60c7135980738.js": "/react-test-assignment-2/precache-manifest.116f06e9bd7e8c410ab60c7135980738.js",
+  "service-worker.js": "/react-test-assignment-2/service-worker.js"
 }
